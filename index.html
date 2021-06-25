@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="scss/all.css">
+    <title>TodoList</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>TODO LIST</h1>
+        <div class="input">
+            <input type="text" placeholder="新增代辦事項" class="txt">
+            <input type="button" class="add" value="+">
+        </div>
+        <div class="output">
+            <div class="btn-filter">
+                <input type="button" value="全部" class="all focus">
+                <input type="button" value="待完成" class="todo">
+                <input type="button" value="已完成" class="complete">
+            </div>
+            <ul class="list">
+                <!-- <li><input type="checkbox" id="0"/><label for="0"><span></span>打電話叫媽媽匯款給我</label><img src="https://hexschool.github.io/js-todo/assets/cancel.jpg" class="del"></li> -->
+            </ul>
+            <div class="foo">
+                <label class="tot">0個待完成項目</label>
+                <input type="button" value="清除已完成項目" class="clear">
+            </div>
+            <br>
+            
+        </div>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script src="todolist.js"></script>
+</body>
+
+</html>
