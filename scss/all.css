@@ -65,6 +65,7 @@ table {
 }
 
 body {
+  height: 850px;
   background: no-repeat linear-gradient(174deg, #FFD370 2%, #FFD370 46%, #FFFFFF 46%, #FFFFFF 100%, #E8E8E8 100%);
 }
 
@@ -118,6 +119,7 @@ h1 {
   position: absolute;
   top: 4px;
   right: 4px;
+  cursor: pointer;
 }
 
 .output {
@@ -150,6 +152,7 @@ h1 {
 }
 
 .btn-filter input:hover {
+  cursor: pointer;
   background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -187,6 +190,7 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 .list li label::after {
@@ -241,6 +245,7 @@ h1 {
   position: absolute;
   right: 16px;
   display: none;
+  cursor: pointer;
 }
 
 .list li:hover img {
@@ -276,6 +281,7 @@ h1 {
   background-color: white;
   color: #9F9A91;
   border: none;
+  cursor: pointer;
 }
 
 .foo .clear:hover {

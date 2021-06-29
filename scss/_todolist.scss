@@ -1,4 +1,5 @@
 body {
+    height: 850px;
     background: no-repeat linear-gradient(174deg, #FFD370 2%, #FFD370 46%, #FFFFFF 46%, #FFFFFF 100%, #E8E8E8 100%);
 }
 
@@ -49,6 +50,7 @@ h1 {
     position: absolute;
     top: 4px;
     right: 4px;
+    cursor: pointer;
 }
 
 .output {
@@ -78,6 +80,7 @@ h1 {
     }
 
     input:hover {
+        cursor: pointer;
         background-color: rgba(0, 0, 0, 0.15);
     }
 
@@ -108,7 +111,7 @@ h1 {
             display: flex;
             align-items: center;
             position: relative;
-
+            cursor:pointer; 
             &::after {
                 content: "";
                 position: absolute;
@@ -131,8 +134,6 @@ h1 {
             margin-right: 16px;
         }
 
-
-
         input:checked {
             &+label {
                 opacity: .3;
@@ -151,7 +152,6 @@ h1 {
                 content: "✔";
                 color: darken($color_main, 30%);
             }
-
         }
 
         img {
@@ -160,7 +160,7 @@ h1 {
             position: absolute;
             right: 16px;
             display: none;
-
+            cursor:pointer; 
         }
     }
 
@@ -192,6 +192,7 @@ h1 {
         background-color: white;
         color: $color_gray;
         border: none;
+        cursor:pointer; 
         &:hover {
             color: $color_black;
         }
